@@ -1,0 +1,304 @@
+body a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+}
+.top-header {
+    color: #505151;
+    background: #fbfbfb;
+    border-bottom: 1px solid #eee;
+    padding: 6px 0;
+}
+
+.top-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-header ul li {
+    display: inline-block;
+}
+
+.top-header .contact-tab,
+.top-header .social-tab {
+    display: inline-block;
+    width: 50%;
+}
+.top-header .social-tab {
+    text-align: right;
+}
+.top-header .contact-tab ul li {
+    list-style: none;
+    margin-right: 10px;
+    font-size: 14px;
+    color: grey;
+}
+.top-header .social-tab ul li {
+    list-style: none;
+    margin-right: 10px;
+    font-size: 16px;
+    color: grey;
+}
+.top-header .contact-tab ul li > a >svg {
+    padding-right: 10px;
+}
+.top-header .contact-tab ul li a:hover,
+.top-header .social-tab ul li a:hover{
+    color: #1490b6;
+}
+.bottom-header {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+header .h-logo {
+    max-width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+header .h-logo img {
+    max-width: 145px;
+}
+header .header-navigation {
+    max-width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 100%;
+}
+header ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header .header-navigation li.menu-item {
+    display: inline-block;
+}
+header .header-navigation li.menu-item > a {
+    padding: 28px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    display: inline-block;
+    border-top: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+header .header-navigation li.menu-item:last-child {
+    margin-left: 15px;
+}
+header .header-navigation li.menu-item:last-child > a {
+    background: #90cc3d;
+    padding: 8px 13px!important;
+    width: auto;
+    border-color: rgba(0,0,0,.08) rgba(0,0,0,.11) rgba(0,0,0,.13);
+    border-width: 1px;
+    color: #fff!important;
+    height: auto;
+    line-height: 17px;
+    text-shadow: 1px 1px 1px #999;
+    font-weight: 600;
+}
+header .header-navigation li.menu-item > a:hover {
+    background: #f8f8f8 url(//allshorevirtualstaffing.com/wp-content/themes/allshorevirtualstaffing/assets/dist/css/../../images/gradient.png) top repeat-x;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-top: 2px solid #128ab2;
+    color: #90cc3d;
+}
+header .header-navigation li.menu-item:last-child > a:hover {
+    background: #128ab2;
+}
+/******* Banner Section - Start ********/
+section.banner-area {
+    width: 100%;
+    background-position: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 62px 0;
+}
+.banner-area h1 {
+    margin: 26px 0 0;
+    padding-bottom: 16px;
+    font-size: 57px;
+    line-height: 57px;
+    color: #128ab2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    max-width: 850px;
+}
+.banner-area h2 {
+    margin: 12px 0 10px;
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #7e7e7e;
+}
+
+/******* Banner Section - End ********/
+
+/******* Developers Section - Start ********/
+.area-heading {
+    background-color: #0081ad;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0 27px;
+}
+
+.area-heading h2 {
+    color: #fff;
+    font-size: 47px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+section.developers-section {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eaeaea;
+    padding: 70px 0;
+}
+.slick-slider {
+    margin: 0 50px;
+    width: calc(100% - 100px);
+}
+.slide-item {
+    padding: 1rem;
+    text-align: center;
+}
+.dev-image {
+    padding: 8px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d3d3d3;
+    transition: all .3s ease;
+}
+.dev-image img {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #ebebeb;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d3d3d3;
+    transition: all .3s ease;
+}
+button.slick-arrow.slick-prev, 
+button.slick-arrow.slick-next {
+    background: #ccc;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    outline: none;
+    position: absolute;
+}
+.slick-prev:before, 
+.slick-next:before {
+    content: '<';
+    font-size: 60px;
+    line-height: 70px;
+    display: block;
+    position: relative;
+    top: -22px;
+    color: #fff;
+    transition: all .2s ease;
+    font-family: cursive;
+}
+.slick-next:before {
+    content: '>';
+}
+.dev-image img:hover {
+    transform: scale(1.08);
+    background: transparent;
+    cursor: pointer;
+}
+.dev-caption h3 {
+    color: #7e7e7e;
+    padding: 30px 0px 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 6px 0 3px;
+    font-weight: 700;
+}
+
+.dev-caption > a {
+    padding: 8px 13px;
+    font-size: 17px;
+    font-family: Open Sans,arial,sans-serif;
+    color: #fff!important;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0;
+    border-color: rgba(0,0,0,.08) rgba(0,0,0,.11) rgba(0,0,0,.13);
+    border-width: 1px;
+    line-height: 17px;
+    text-shadow: 1px 1px 1px #999;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #90cc3d!important;
+}
+.dev-caption a:hover {
+    background-color: #017297!important;
+}
+.single-skill {
+    background-color: #128ab2;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    padding: 3px 7px;
+    cursor: default;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dev-skills .single-skill:last-child {
+    display: table;
+    margin: 0 auto 4px;
+}
+/******* Developers Section - End ********/
+
+/******* Agency Section - Start ********/
+.agency-content {
+    padding: 60px 0;
+    font-size: 19px;
+    color: #505151;
+}
+/******* Agency Section - End ********/
+
+
+/******* Contact Page - Start ********/
+.form-wrap {
+    background-color: #fafafa;
+    border: 1px solid #8a8a8a;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 30px 30px 49px 40px;
+}
+/******* Contact Page - End ********/
+
+.product-img img {
+    width: 100%;
+    display: block;
+}
